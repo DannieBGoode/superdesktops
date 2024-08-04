@@ -1,6 +1,7 @@
 import marioImage from "../assets/authors/mario.webp";
 import joshuaImage from "../assets/authors/joshua.webp";
 import erikaImage from "../assets/authors/erika.webp";
+import danielImage from "../assets/authors/erika.webp";
 
 export interface Props {
   name: string;
@@ -33,7 +34,7 @@ export const authors: Props[] = [
   {
     name: "Daniel",
     slug: "daniel",
-    image: "./src/assets/authors/erika.webp",
+    image: danielImage,
     bio: "Daniel is a successful entrepreuner. She is the founder of Acme Inc, a bootstrapped business that builds affordable SaaS tools for local news, indie publishers, and other small businesses.",
   },
 ];
